@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Greet
         id: greet
-        uses: szymciq/cicd-action-repo@v1
+        uses: szymciq/cicd-action-repo@cicd-action-repo@v1
         with:
           name: ${{ matrix.name }}
       - name: Print action call output
