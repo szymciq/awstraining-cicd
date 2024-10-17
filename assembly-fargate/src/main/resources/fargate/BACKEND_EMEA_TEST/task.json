@@ -40,7 +40,7 @@
       ],
       "secrets": [
         {
-          "valueFrom": "<<TODO: set ARN of secrets manager>>",
+          "valueFrom": "arn:aws:secretsmanager:eu-central-1:615299738092:secret:cicd_secret-BloJyx",
           "name": "SPRING_APPLICATION_JSON"
         }
       ],
